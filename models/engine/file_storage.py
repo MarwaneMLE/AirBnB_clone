@@ -3,7 +3,7 @@
 Module that contains the FileStore class
 """
 
-from base_model import BaseModel
+from models.base_model import BaseModel
 import json
 from json import JSONDecodeError
 
