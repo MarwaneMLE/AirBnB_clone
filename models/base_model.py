@@ -31,7 +31,7 @@ class BaseModel:
                     setattr(self, key, val)
         else:
             """Add the new instance to the FileStorage"""
-            models.storage.new(self)
+            #models.storage.new(self)
 
     def __str__(self):
         """
@@ -48,7 +48,7 @@ class BaseModel:
         self.updated_at = datetime.now()
         """To save the objects to the JSON
         file using FileStore module"""
-        models.storage.save()
+        #models.storage.save()
 
     def to_dict(self):
         """
