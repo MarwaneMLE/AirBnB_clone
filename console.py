@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+
 import cmd
-import json
-import shlex
 from models.base_model import BaseModel
 from models import storage
+import shlex
 
 
 class HBNBCommand(cmd.Cmd):
@@ -13,10 +13,12 @@ class HBNBCommand(cmd.Cmd):
 
     def do_quit(self, arg):
         """Quit command to exit the program"""
+        print("Quitting...")
         return True
 
     def do_EOF(self, arg):
         """EOF command to exit the program"""
+        print("Quitting...")
         return True
 
     def emptyline(self):
@@ -24,7 +26,7 @@ class HBNBCommand(cmd.Cmd):
         pass
 
     def do_create(self, arg):
-        """Create a new instance of BaseModel"""
+        """Create a new instance of a class"""
         if not arg:
             print("** class name missing **")
             return
@@ -123,6 +125,7 @@ class HBNBCommand(cmd.Cmd):
             if len(args) < 4:
                 print("** value missing **")
                 return
+
             attribute_value = args[3]
 
             # Convert attribute_value to the appropriate type
@@ -141,3 +144,4 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
+
