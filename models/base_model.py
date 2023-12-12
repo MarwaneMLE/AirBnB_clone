@@ -6,7 +6,7 @@ attributes/methods for other classes
 
 import uuid
 from datetime import datetime
-import models
+from models import storage
 
 class BaseModel:
     """
@@ -19,7 +19,7 @@ class BaseModel:
         self.created_at = datetime.now()
         self.updated_at = datetime.now()
         """Add the new instance to the FileStorage"""
-        models.storage.new(self)
+        storage.new(self)
         
         if kwargs is not None and kwargs != {}:
             for key in kwargs:
@@ -47,7 +47,7 @@ class BaseModel:
         self.updated_at = datetime.now()
         """To save the objects to the JSON
         file using FileStore module"""
-        models.storage.save()
+        storage.save()
 
     def to_dict(self):
         """
