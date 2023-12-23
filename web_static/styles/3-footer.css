@@ -4,8 +4,9 @@ footer {
     width: 100%;
     border-top: 1px solid #CCCCCC;
     bottom: 0; 
-    position: absolute;
-    bottom: auto;
+    position: fixed;
+    align-items: center;
+    display: grid;
 }
 
 footer p{

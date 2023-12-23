@@ -1,0 +1,225 @@
+/*===== 7-places.css======*/
+.places{
+	    width: 100%;
+	        border: 0;
+		    display: flex;
+		        justify-content: center; 
+			    flex-wrap: wrap;
+			        flex-direction: row; 
+			}
+
+			.places > h1{
+				    text-align: left;
+				        font-size: 30px;
+					    padding-top: 20px; 
+					        padding-left: 20px;
+						    margin-bottom: 0;
+						        flex: 0 1 100%;
+						}
+
+						.places article{
+							    width: 390px;
+							        padding: 20px;
+								    margin: 20px;
+								        border: 1px solid #FF5A5F;
+									    border-radius: 4px;
+									        justify-content: center;
+										    justify-content: flex-start;
+										        flex-direction: column;
+											    display: flex;
+											        position: relative;
+											}
+
+											.places article > h2{
+												    text-align: center;
+												        font-size: 30px; 
+													    margin: 0;
+													        margin-bottom: 15px;   
+													}
+													/*===== 8-places.css======*/
+													.price_by_night{
+														    color: #ff5aff;
+														        border: 4px solid #FF5A5F;
+															    border-radius: 50px;
+															        min-width: 60px;
+																    height: 60px;
+																        font-size: 30px;
+																	    padding: 5px;
+																	        display: flex;
+																		    justify-content: center; 
+																		        align-items: center;
+																			    margin-left: auto;
+																			        position: absolute;
+																				    top: 10px;
+																				        right: 20px; 
+																				}
+
+																				.price_by_night p{
+																					    margin: 0;
+																					        color: #FF5A5F;
+																					}
+
+																					.information{ 
+																						    display: inline;
+																						        
+																						        height: 80px;
+																							    width: 100%;
+																							        border-top: 1px solid #DDDDDD;
+																								    border-bottom: 1px solid #DDDDDD;
+																								        display: flex;
+																									    text-align: center;
+																									        justify-content: center;
+																										    align-items: center;
+																										        margin-top: 30px;
+																											    margin-bottom: 10px;
+																											        padding-top: 10px;
+																											}
+
+																											.max_guest > p,
+																											.number_rooms > p,
+																											.number_bathrooms > p{
+																												    padding-top: 20px;
+																												        margin-top: auto;
+																													    margin-bottom: auto;
+																												    }
+
+																												    .max_guest,
+																												    .number_rooms,
+																												    .number_bathrooms{
+																													        display: inline-block;
+																														    width: 100%;
+																														        text-align: center;
+																															    line-height: 0;
+																															        margin-bottom: 0;
+																															}
+
+																															.max_guest > p,
+																															.number_rooms > p,
+																															.number_bathrooms > p{
+																																    padding-bottom: 20px;
+																																        margin-top: 0;
+																																}
+																																.guest_icon{
+																																	display: inline-block;
+																																		background-image: url("../images/icon_group.png");
+																																			background-repeat: no-repeat;
+																																				background-position: center;
+																																					width: 50px;
+																																					    height: 50px;
+																																					        margin-bottom: -15px;
+																																					}
+
+																																					.bed_icon{
+																																						    display: inline-block;
+																																						        background-image: url("../images/icon_bed.png");  
+																																							    margin-left: auto;
+																																							        margin-right: auto;
+																																								    height: 50px;
+																																								        width: 50px;
+																																									    margin-bottom: -15px;
+																																								    }
+
+																																								    .bath_icon {
+																																									        display: inline-block;
+																																										    background-image: url("../images/icon_bath.png"); 
+																																										        margin-left: auto;
+																																											    margin-right: auto;
+																																											        height: 50px;
+																																												    width: 50px;
+																																												        margin-bottom: -15px;
+																																												}
+
+																																												.user > p {
+																																													    margin-top: 20px;
+																																													        margin-bottom: 20px;
+																																													}
+
+																																													.description > p {
+																																														    margin-top: 7px;
+																																														        margin-bottom: 0px;
+																																														}
+
+																																														.user{
+																																															    margin-top: 5px;
+																																															        margin-bottom: 10px;
+																																															}
+
+																																															.user div{
+																																																    flex-direction: row;
+																																															    }
+
+																																															    strong{
+																																																        font-weight: bold;
+																																																}
+																																																/**===== 100-places.css======*/
+																																																article .amenities,
+																																																article .reviews {
+																																																	  margin-top: 40px;
+																																																	    width: 100%;
+																																																    }
+
+																																																    article .amenities h2 {
+																																																	      font-size: 16px;
+																																																	        padding-bottom: 10px;
+																																																		  border-bottom: 1px solid #dddddd;
+																																																		    position: relative;
+																																																		      left: -30px;
+																																																	      }
+
+																																																	      article .reviews h2 {
+																																																		        font-size: 16px;
+																																																			  padding-bottom: 10px;
+																																																			    border-bottom: 1px solid #dddddd;
+																																																		    }
+
+																																																		    article .amenities ul {
+																																																			      padding-left: 0;
+																																																			        position: relative;
+																																																				  left: -40px;
+																																																			  }
+																																																			  article .reviews ul {
+																																																				    padding-left: 0;
+																																																			    }
+
+																																																			    article .amenities li {
+																																																				      list-style-type: none;
+																																																				        margin: 10px;
+																																																					  display: flex;
+																																																					    align-items: center;
+																																																					      justify-content: start;
+																																																				      }
+
+																																																				      article .reviews li {
+																																																					        list-style-type: none;
+																																																					}
+																																																					article .reviews h3 {
+																																																						  font-size: 14px;
+																																																						    margin: 5px auto;
+																																																					    }
+																																																					    article .reviews p {
+																																																						      font-size: 12px;
+																																																						        margin: 5px auto 20px auto;
+																																																						}
+
+																																																						.tv_icon,
+																																																						.wifi_icon,
+																																																						.pet_icon {
+																																																							  background-image: url(../images/icon_tv.png);
+																																																							    background-size: cover;
+																																																							      background-repeat: no-repeat;
+																																																							        margin-right: 10px;
+																																																								  height: 20px;
+																																																								    width: 20px;
+																																																							    }
+
+																																																							    .tv_icon {
+																																																								      background-image: url(../images/icon_tv.png);
+																																																							      }
+																																																							      .wifi_icon {
+																																																								        background-image: url(../images/icon_wifi.png);
+																																																								}
+																																																								.pet_icon {
+																																																									  background-image: url(../images/icon_pets.png);
+																																																								  }
+
+
