@@ -7,7 +7,7 @@
   flex-direction: row;
 }
 
-.places > h1 {
+.places h1 {
   font-size: 30px;
   padding-left: 20px;
   padding-top: 20px;
@@ -90,6 +90,15 @@ article > h2 {
   background-position: center;
 }
 
+.guest_icon {
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+  background: url('../images/icon_group.png') no-repeat center;
+  background-position: center;
+}
+
 .bed_image {
   margin-left: auto;
   margin-right: auto;
@@ -111,6 +120,7 @@ article .reviews {
   margin-top: 40px;
   width: 100%;
 }
+
 
 article .amenities h2 {
   font-size: 16px;
@@ -154,6 +164,7 @@ article .reviews p {
   font-size: 12px;
   margin: 5px auto 20px auto;
 }
+article 
 
 .icon-tv,
 .icon-wifi,
